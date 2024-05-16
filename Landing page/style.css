@@ -1,0 +1,134 @@
+body{
+    font-family: "Roboto" , sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header,footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+header{
+    display: flex;
+    padding:10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 400px;  
+}
+button{
+    height: 60px;
+    width: 200px;
+    background-color:#3882f6;
+    border: 2px solid white;
+    color:aliceblue;
+    border-radius: 8px;
+    font-size:20px;
+    padding:0px;
+    margin:3px;
+}
+.main_text{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+#logo{
+    font-size: 24px; 
+    color: #f9faf8;
+}
+#links{
+    font-size:18px;
+    color:#e5e7eb;
+}
+ul{
+    display: flex;
+    gap:24px;
+}
+li{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;  
+    display:flex;
+}
+a{
+    text-decoration: none;
+    color:#e5e7eb;
+}
+#Main{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9faf8;
+    text-align: left;
+    margin:0px
+}
+#submain{
+    font-size:18px;
+    color:#e5e7eb;
+    text-align: justify;
+    margin: 0px;
+}
+.hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    text-align: justify;
+    padding:100px 400px;
+}
+#awesome{
+    /* padding:0px 200px 0px ; */
+}
+#hero_img{
+    height: 250px;
+    width: 800px;
+    
+}
+.image{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:80px;
+    padding:20px 900px;
+}
+img{
+    border: 3px solid #3882f6;
+    border-radius: 20px;
+    height: 150px;
+    width: 150px;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.quote{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style:italic;
+    font-weight:lighter;
+    padding: 100px 700px;
+    
+    /* display: flex; */
+    
+}
+
+.bottom{
+    background-color:#3882f6;
+    color:aliceblue;
+    margin: 100px 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 200px;
+    border-radius: 10px;
+    text-align: left;
+    flex:1;
+}
+footer{
+    padding: 30px;
+    margin: 0;
+}
