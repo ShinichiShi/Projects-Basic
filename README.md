@@ -1,2 +1,2 @@
-# Projects
-Tiny mini projects for learning purpose
+# Odin-Projects
+Projects taken from https://www.theodinproject.com/
