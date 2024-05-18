@@ -1,6 +1,5 @@
 # Odin-Projects
-Projects taken from https://www.theodinproject.com/
+Projects taken from [The Odin_project](https://www.theodinproject.com/)
 
-## 1.Recipes :
-https://ShinichiShi.github.io/Odin-Projects/Recipes/
-## 2.Landing page : 
+ **1.Recipes** : [LINK](https://ShinichiShi.github.io/Odin-Projects/Recipes/)
+ <br> **2.Landing page** : [LINK](https://shinichishi.github.io/Odin-Projects/Landing_page/)
