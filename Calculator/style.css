@@ -1,0 +1,127 @@
+  /* @media screen (width<=500px){
+            table{
+            height: 2vh;
+            width: 35vw;;
+        } */
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url('https://tse1.mm.bing.net/th?q=math%20background%20design');
+            background-position: center;
+            /* background-size: max(10px, 100vw); */
+            /* background-repeat: no-repeat; */
+        }
+        
+        table{
+            border: 2px solid black;
+            height: 55vh;
+            width: 28vw;;
+            background-color: black;
+            /* border-radius: 10px; */
+        }
+        tr,th,td{
+            border: 2px solid black;
+            text-align: center;
+            overflow: hidden;
+
+        }
+        input{
+            height: 100%;
+            width: 100%;
+            /* padding-left:20px; */
+            cursor: pointer;
+            font-size:2vw;
+            text-align: center;
+            border-radius: 0.69vw;
+        }
+        
+        #input{
+            background-color: wheat;
+            border: 0;
+            cursor:text;
+            /* caret-color: red; */
+        }
+        #no{
+            background-color: rgb(194, 186, 186);
+
+        }
+        #no:hover{
+            background-color: rgb(139, 129, 129);
+
+        }
+        #red{
+            background-color: rgb(240, 100, 100);
+
+        }
+        #red:hover{
+            background-color: rgb(254, 0, 0);
+
+        }
+        #operator{
+            background-color: rgb(196, 255, 100);
+
+        }
+        #operator:hover{
+            background-color: rgb(216, 236, 36);
+
+        }
+        #equals{
+            background-color: rgb(5, 212, 5);
+        }
+        #equals:hover{
+            background-color: rgb(68, 154, 68);
+
+        }
+        
+        
+
+        .calc{
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+
+        }
+        
+        .backspace{
+            background-image: url('./backspace.svg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 60%;
+        }
+        .divide{
+            background-image: url('./divide.svg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 60%;
+        }
+        .multiply{
+            background-image: url('./multiply.svg');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 60%;
+        }
+        @media (max-width: 455px) {
+            table {
+                height: 47vh;
+                width: 68vw;
+            }
+            input {
+                border-radius: 0.4vw;
+                font-size:5vw;
+                border-radius: 2vw;
+            }
+        }
+        @media (min-width:455px) and (max-width: 1000px) {
+            table {
+                height: 72vh;
+                width: 62vw;
+            }
+            input {
+                font-size:7vw;
+                border-radius: 2.69vw;
+            }
+        }
