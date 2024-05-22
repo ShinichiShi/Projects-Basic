@@ -65,7 +65,8 @@ let inp=document.querySelector('input');
         inp.value = math.evaluate(inp.value);
         } catch (a) {
             a.message="Syntax error";
-            inp.value="Syntax Error :<"
+            inp.value="Syntax Error :<";
+
         console.error('An error occurred in equal() function:', a.message);
          // Additional error handling or fallback behavior can be added here
         }

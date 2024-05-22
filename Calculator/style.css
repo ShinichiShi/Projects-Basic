@@ -87,22 +87,25 @@
         }
         
         .backspace{
-            background-image: url('./backspace.svg');
+            background-image: url('./svg/backspace.svg');
             background-position: center;
             background-repeat: no-repeat;
             background-size: 60%;
+            color: transparent;
         }
         .divide{
-            background-image: url('./divide.svg');
+            background-image: url('./svg/divide.svg');
             background-position: center;
             background-repeat: no-repeat;
             background-size: 60%;
+            color: transparent;
         }
         .multiply{
-            background-image: url('./multiply.svg');
+            background-image: url('./svg/multiply.svg');
             background-position: center;
             background-repeat: no-repeat;
             background-size: 60%;
+            color: transparent;
         }
         @media (max-width: 455px) {
             table {
