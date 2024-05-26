@@ -2,6 +2,7 @@ const submitbtn = document.querySelector('#close');
 const plus = document.querySelector('#plus');
 const details = document.querySelector('.section');
 const card = document.querySelector('.hero');
+const deletebtn=document.querySelector('#delete');
 // document.addEventListener('DOMContentLoaded', start);
 
 const Library = [];
@@ -12,7 +13,6 @@ function Book(title, author, pages, read) {
     this.pages = pages;
     this.read = read;
 }
-start();
 function start() {
     plus.addEventListener('click', () => {
         details.hidden = false;
@@ -21,7 +21,10 @@ function start() {
     submitbtn.addEventListener('click', () => {
         addbook();
     });
-
+    deletebtn.addEventListener('click',() => {
+      deletecard();
+    }
+    );
 }
 
 function addbook() {
@@ -37,7 +40,6 @@ function addbook() {
         details.hidden = true;
     }
     else {
-
         alert('Please enter Valid info');
     }
 }
@@ -61,3 +63,8 @@ function validate(title, author, pages, read) {
     if (title === '' || author === '' || isNaN(pages) || parseInt(pages) <= 0) { return false; }
     return true;
 }
+
+function deletecard(){
+    
+}
+start();

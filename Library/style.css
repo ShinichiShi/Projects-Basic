@@ -54,24 +54,23 @@ nav{
     background-color: gray;
     /* justify-content: space-between; applied only for containers*/
     margin: 3vh;
-    padding: 3vw;
+    padding:1vw;
     padding-top: 3vh;
     flex:0 0 auto;
     box-shadow: 1vh 1vh 3vh 0vh black;
 }
-.initial_Addcard{
-    height: 16vh;
-    width: 3vw; /*remove so the cards can grow to accommodate their content  */
+.initial_Card{
+    height: 12vh;
+    width: 6vw;
+    /* width: 3vw; remove so the cards can grow to accommodate their content  */
     background-color: gray;
     /* justify-content: space-between; applied only for containers */
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin: 3vh;
-    padding: 3vw;
-    padding-top: 3vh;
     flex:0 0 auto;
+    flex-wrap: wrap;
 }
-
 .details{
     margin: 0;
     display: flex;
@@ -119,4 +118,14 @@ input{
 }
 .input_details{
     font-size:x-large;
+}
+.delete{
+    width: 24vh;
+    height: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+#plus{
+    font-size: 1vw ;
 }
